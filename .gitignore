@@ -1,0 +1,22 @@
+# ---- 构建产物 ----
+bin/
+obj/
+dist/
+publish/
+*.zip
+
+# ---- 本地/生产密钥配置（严禁入库）----
+appsettings.Production.json
+appsettings.Development.json
+appsettings.*.local.json
+*.pfx
+*.p12
+secrets.json
+
+# ---- IDE / 系统 ----
+.vs/
+.idea/
+*.user
+*.suo
+*.log
+logs/
